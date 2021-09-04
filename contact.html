@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta name="viewport " content="width=device-width, initial-scale=1.0 ">
+    <title>WEB DEVELOPMENT AND DESIGNING</title>
+    <link rel="stylesheet " href="style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" </head>
+
+    <body>
+
+        <section class="sub-header ">
+
+            <nav>
+
+                <a href="index.html ">
+                    <img src="img/logo.jpeg "></a>
+                <div class="nav-links " id="nav-links">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li>
+                            <a href="index.html ">HOME</a>
+                        </li>
+                    </ul>
+                    <ul>
+
+
+                        <li>
+                            <a href="about.html ">ABOUT</a>
+                        </li>
+                    </ul>
+
+                    <ul>
+
+
+                        <li>
+                            <a href="course.html ">COURSE</a>
+                        </li>
+                    </ul>
+
+                    <ul>
+
+
+                        <li>
+                            <a href="blog.html ">BLOG</a>
+                        </li>
+                    </ul>
+
+
+
+
+                    <li>
+                        <a href="contact.html ">CONTACT</a>
+                    </li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i></nav>
+        </section>
+        <section class="internships">
+            <h1>INTERNSHIPS</h1>
+            <p>An internship is the best way to put classroom knowledge to practice</p>
+            <div class="row">
+                <div class="internships-col">
+                    <img src="https://i.ibb.co/2Z5vr5t/bangalore.jpg" .internships-col { flex-basis: 32%; border-radius: 10px; margin-bottom: 30px; position: relative; overflow: hidden; display: block; } .internships-col img { width: 100px; height: 100px; float: left; object-fit:
+                        cover; } .layer { background: rgba(226, 0, 0, 0.7); height: 100%; width: 100%; position: absolute; top: 0; left: 0; transition: 0.5s; background: transparent; } .layer:hover { background: rgba(226, 0, 0.7); } .layer h3 { width: 100%;
+                        font-weight: 500; color: #fff; font-size: 26px; bottom: 0; left: 50%; transform: translateX(-50%); position: absolute; } .layer:hover h3 { bottom: 49%; opacity: 1; } .city-img { display: flex; width: 100%!important; } ">
+                    <div class="layer ">
+                        <h3>BANGALORE</h3>
+                    </div>
+                </div>
+
+                <div class="internships-col ">
+                    <img src="https://i.ibb.co/2Z5vr5t/bangalore.jpg " class="city-img ">
+                    <div class="layer ">
+                        <h3>DELHI</h3>
+                    </div>
+                </div>
+                <div class="internships-col ">
+                    <img class="city-img " src="https://i.ibb.co/2Z5vr5t/bangalore.jpg ">
+                    <div class="layer ">
+                        <h3>HYERABAD</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class=" contact-us ">
+            <div class="row ">
+                <div class=" contact-col ">
+                    <div>><i class="fa fa-home "></i><span><h5>XYZ Road , ABS Building</h5><p>Bangalore,Karnatka,New Delhi</p></span>
+                </div>
+                <div><i class="fa fa- phone "></i><span><h5>+1 012587</h5><p>Monday to Saturday,10 to 6 P.M</p></span>
+                </div>
+                <div><i class="fa fa- envelope-o "></i><span><h5>wd0288@gmail.com</h5><p>Email us your Queries</p></span>
+                </div>
+                </div>
+                <div class="contact-col "><form action="form-handler.php " method=" post ">
+                
+                    <input type="text " name="name " placeholder=" Enter your name " required >
+                    <input type="text " name=" email " placeholder=" Enter your email id " required>
+                    <input type="text " name="subject " placeholder=" Enter your subject " required >
+                    <textarea rows="8 " name="message " placeholder=" Message " required></textarea><button type=" submit " class="hero-btn red-btn ">Send your Queries here</button>
+                    <button type="submit " class="hero-btn red-btn ">Send Message</button></form>
+                </div>
+        </section>
+
+        <section class=" footer ">
+            <h4>CONACT US</h4>
+            <p>LOREM ISPUM DOLAR SIT AMET</p>
+            <div class="icon-pr ">
+                <div class=" icons ">
+                    <i class="fa fa-facebook "></i>
+                </div>
+                <div class=" icons ">
+                    <i class=" fa fa-instagram "></i></div>
+                <div class=" icons ">
+                    <i class=" fa fa-twitter "></i></div>
+            </div>
+            </div>
+            <p>Made By<i class="fa fa-heart-o "></i>WD</p>
+        </section>
+
+        <script>
+            {
+                var navLinks = document.getElementById(" navLinks ");
+
+                function showMenu() {
+                    navLinka.style.right = "0 ";
+                }
+
+                function hideMenu() {
+                    navLinks.style.right = "-200px ";
+                }
+            }
+        </script>
+    </body>
+
+</html>

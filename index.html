@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta name="viewport " content="width=device-width, initial-scale=1.0 ">
+    <title>WEB DEVELOPMENT AND DESIGNING</title>
+    <link rel="stylesheet " href="style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" </head>
+
+    <body>
+
+        <section class="header ">
+
+            <nav>
+                <a href="index.html ">
+                    <img src="img/logo.jpeg "></a>
+                <div class="nav-links " id="nav-links">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+
+
+                        <li>
+                            <a href="index.html ">HOME</a>
+                        </li>
+                    </ul>
+                    <ul>
+
+
+                        <li>
+                            <a href="about.html ">ABOUT</a>
+                        </li>
+                    </ul>
+
+                    <ul>
+
+
+                        <li>
+                            <a href=" course.html">COURSE</a>
+                        </li>
+                    </ul>
+
+                    <ul>
+
+
+                        <li>
+                            <a href="blog.html ">BLOG</a>
+                        </li>
+                    </ul>
+
+                    <ul>
+
+
+                        <li>
+                            <a href="contact.html ">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i></nav>
+            <div class="text-box ">
+                <h1>World's Biggest Course</h1>
+                <p>Making Website is one of the easiest thing</p>
+                <a href=" " class="hero-btn ">Visit Us to Know More</a>
+            </div>
+        </section>
+        <section class="course">
+            <h1>Courses We Offer</h1>
+            <p>We Provide Free and Best Courses To Build Your Skills</p>
+            <div class="row">
+
+
+                <div class="course-col">
+                    <h3>INTERMEDIATE</h3>
+                    <p>Lorem Purses</p>
+                </div>
+
+                <div class="course-col">
+                    <h3>DEGREE</h3>
+                    <p>Lorem Purses</p>
+                </div>
+
+                <div class="course-col">
+                    <h3>POST GRADUATION</h3>
+                    <p>Lorem Purses</p>
+                </div>
+
+                <div class="course-col">
+                    <h3>ADVANCED</h3>
+                    <p>Lorem Purses</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="internships">
+            <h1>INTERNSHIPS</h1>
+            <p>An internship is the best way to put classroom knowledge to practice</p>
+            <div class="row">
+                <div class="internships-col">
+                    <img src="https://i.ibb.co/2Z5vr5t/bangalore.jpg" .internships-col { flex-basis: 32%; border-radius: 10px; margin-bottom: 30px; position: relative; overflow: hidden; display: block; } .internships-col img { width: 100px; height: 100px; float: left; object-fit:
+                        cover; } .layer { background: rgba(226, 0, 0, 0.7); height: 100%; width: 100%; position: absolute; top: 0; left: 0; transition: 0.5s; background: transparent; } .layer:hover { background: rgba(226, 0, 0.7); } .layer h3 { width: 100%;
+                        font-weight: 500; color: #fff; font-size: 26px; bottom: 0; left: 50%; transform: translateX(-50%); position: absolute; } .layer:hover h3 { bottom: 49%; opacity: 1; } .city-img { display: flex; width: 100%!important; } ">
+                    <div class="layer ">
+                        <h3>BANGALORE</h3>
+                    </div>
+                </div>
+
+                <div class="internships-col ">
+                    <img src="https://i.ibb.co/2Z5vr5t/bangalore.jpg " class="city-img ">
+                    <div class="layer ">
+                        <h3>DELHI</h3>
+                    </div>
+                </div>
+                <div class="internships-col ">
+                    <img class="city-img " src="https://i.ibb.co/2Z5vr5t/bangalore.jpg ">
+                    <div class="layer ">
+                        <h3>HYERABAD</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="facilities ">
+            <h1>OUR FACILITIES</h1>
+            <p>We Provide Best Facilities To Enhace Your Skills</p>
+            <div class="row ">
+                <div class="internships-col ">
+                    <img src="img/supportive material.jpg " class="city-img ">
+                    <div class="layer ">
+                        <h3>SUPPORTIVE MATERIALS</h3>
+                    </div>
+                </div>
+
+                <div class="internships-col ">
+                    <img src="img/consulting.jpg " class=" city-img ">
+                    <div class="layer ">
+                        <h3>CONSULTING</h3>
+                    </div>
+                </div>
+                <div class="internships-col ">
+                    <img src="img/strategy.jpg " class="city-img ">
+                    <div class="layer ">
+                        <h3>STRATEGY</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cta ">
+            <h1>ENROLL FOR COURSES</h1>
+            <a href=" " class="hero-btn ">CONTACT US</a>
+        </section>
+        <section class=" footer "><h4>ABOUT US</h4>
+        <p>LOREM ISPUM DOLAR SIT AMET</p>
+        <div class="icons ">
+            <i class="fa fa-facebook "></i>
+            </div>
+            <div class=" icons ">
+                <i class=" fa fa-instagram "></i></div>
+                <div class=" icons ">
+                    <i class=" fa fa-twitter "></i></div>
+        </div>
+        <p>Made By<i class="fa fa-heart-o "></i>WD</p>
+        </section>
+
+        <script>
+            {
+                var navLinks = document.getElementById(" navLinks ");
+
+                function showMenu() {
+                    navLinka.style.right = "0 ";
+                }
+
+                function hideMenu() {
+                    navLinks.style.right = "-200px ";
+                }
+            }
+        </script>
+    </body>
+
+</html>
